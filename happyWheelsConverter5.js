@@ -1,5 +1,5 @@
-# Wesley Daugherty
-# wcd5f
+// Wesley Daugherty
+// wcd5f
 
 from svgpathtools import svg2paths
 from PIL import Image as PIL_Image
@@ -18,38 +18,38 @@ from math import ceil
 
 
 
-# Tools you can use:
-# Inkscape
-# vectorizer.io
-# pngtosvg.com
+// Tools you can use:
+// Inkscape
+// vectorizer.io
+// pngtosvg.com
 
 
-# Enter your image name here (the svg file exported from Inkscape or another program)
+// Enter your image name here (the svg file exported from Inkscape or another program)
 svg_file = ''
 
-# Enter your image name here (the original image before you vectorized it)
+// Enter your image name here (the original image before you vectorized it)
 orig_file = ''
 
-# Enter your output text file name here
+// Enter your output text file name here
 output_File = ''
 
-# This is the pixel sample size. A larger number means the output will be lower resolution.
+// This is the pixel sample size. A larger number means the output will be lower resolution.
 old_Pixel_Size = 1
 
-# This is the size of each pixel in HW.
+// This is the size of each pixel in HW.
 new_Pixel_Size = 1
 
 override_im_dims = False
 max_x = 100
 max_y = 100
 
-# These are your position offset values. You don't really need to mess with these.
+// These are your position offset values. You don't really need to mess with these.
 offset_x = 400
 offset_y = 5200
 
-# This probably won't make much sense, but I'll try to explain briefly. Essentially, when you copy/paste between levels,
-# the shape ID numbers are preserved, which will cause a conflict if there are multiple shapes with the same ID #
-# To avoid this, figure out what the highest shape ID number is in your level, and then set the ID offset to a number above that
+// This probably won't make much sense, but I'll try to explain briefly. Essentially, when you copy/paste between levels,
+// the shape ID numbers are preserved, which will cause a conflict if there are multiple shapes with the same ID #
+// To avoid this, figure out what the highest shape ID number is in your level, and then set the ID offset to a number above that
 id_offset = 0
 
 
